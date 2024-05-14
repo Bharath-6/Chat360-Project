@@ -1,0 +1,27 @@
+2024-05-14T14:39:32.759+05:30  INFO 14712 --- [Book] [main] com.example.Book.BookApplication         : Starting BookApplication using Java 17.0.11 with PID 14712 (C:\Users\prasad Bharath\Downloads\Book\target\classes started by prasad Bharath in C:\Users\prasad Bharath\Downloads\Book)
+2024-05-14T14:39:32.768+05:30  INFO 14712 --- [Book] [main] com.example.Book.BookApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-05-14T14:39:35.198+05:30  INFO 14712 --- [Book] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-14T14:39:35.368+05:30  INFO 14712 --- [Book] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 143 ms. Found 1 JPA repository interface.
+2024-05-14T14:39:36.698+05:30  INFO 14712 --- [Book] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-14T14:39:36.724+05:30  INFO 14712 --- [Book] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-14T14:39:36.725+05:30  INFO 14712 --- [Book] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-14T14:39:36.873+05:30  INFO 14712 --- [Book] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-14T14:39:36.874+05:30  INFO 14712 --- [Book] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3921 ms
+2024-05-14T14:39:37.171+05:30  INFO 14712 --- [Book] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-14T14:39:37.599+05:30  INFO 14712 --- [Book] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:69b37a3b-c576-4229-9cce-c55ae3145e40 user=SA
+2024-05-14T14:39:37.602+05:30  INFO 14712 --- [Book] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-14T14:39:37.706+05:30  INFO 14712 --- [Book] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-14T14:39:37.876+05:30  INFO 14712 --- [Book] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.0.Final
+2024-05-14T14:39:37.976+05:30  INFO 14712 --- [Book] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-14T14:39:38.589+05:30  INFO 14712 --- [Book] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-14T14:39:40.811+05:30  INFO 14712 --- [Book] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-14T14:39:40.896+05:30  INFO 14712 --- [Book] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-14T14:39:41.437+05:30  WARN 14712 --- [Book] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-14T14:39:42.169+05:30  INFO 14712 --- [Book] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-14T14:39:42.189+05:30  INFO 14712 --- [Book] [main] com.example.Book.BookApplication         : Started BookApplication in 10.68 seconds (process running for 11.73)
+2024-05-14T14:39:47.524+05:30  INFO 14712 --- [Book] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-14T14:39:47.526+05:30  INFO 14712 --- [Book] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-14T14:39:47.529+05:30  INFO 14712 --- [Book] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-05-14T14:39:47.633+05:30  INFO 14712 --- [Book] [http-nio-8080-exec-1] c.e.Book.Controller.LoggingController    : An INFO Message
+2024-05-14T14:39:47.633+05:30  WARN 14712 --- [Book] [http-nio-8080-exec-1] c.e.Book.Controller.LoggingController    : A WARN Message
+2024-05-14T14:39:47.634+05:30 ERROR 14712 --- [Book] [http-nio-8080-exec-1] c.e.Book.Controller.LoggingController    : An ERROR Message
